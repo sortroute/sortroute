@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
   <channel>
     <title>Smartwatches for Seniors</title>
     <link>https://sortroute.com/pages/smartwatches_seniors.html</link>
     <description>Compare top-rated smartwatches designed for seniors with features like heart monitoring.</description>
+
     
     <item>
       <g:id>smartwatches_seniors-1</g:id>
       <g:title><![CDATA[Garmin Vivosmart 4]]></g:title>
-      <g:description><![CDATA[Compare top-rated smartwatches designed for seniors with features like heart monitoring.]]></g:description>
+      <g:description><![CDATA[undefined]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_seniors.html</g:link>
       <g:image_link>https://example.com/garmin.jpg</g:image_link>
-      <g:brand>Garmin</g:brand>
       <g:price>129.99 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
-  
+    
     <item>
       <g:id>smartwatches_seniors-2</g:id>
       <g:title><![CDATA[Fitbit Charge 5]]></g:title>
-      <g:description><![CDATA[Compare top-rated smartwatches designed for seniors with features like heart monitoring.]]></g:description>
+      <g:description><![CDATA[undefined]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_seniors.html</g:link>
       <g:image_link>https://example.com/fitbit.jpg</g:image_link>
-      <g:brand>Fitbit</g:brand>
       <g:price>149.99 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
-  
+    
+
   </channel>
 </rss>
