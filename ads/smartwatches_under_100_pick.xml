@@ -8,7 +8,7 @@
     
     <item>
       <g:id>smartwatches_under_100_pick-1</g:id>
-      <g:title><![CDATA[Amazfit Bip 3 Pro]]></g:title>
+      <g:title><![CDATA[Amazfit Bip U Pro]]></g:title>
       <g:description><![CDATA[undefined]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_under_100_pick.html</g:link>
       <g:image_link>https://placehold.co/300x300?text=Smartwatch</g:image_link>
@@ -23,7 +23,7 @@
       <g:description><![CDATA[undefined]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_under_100_pick.html</g:link>
       <g:image_link>https://placehold.co/300x300?text=Smartwatch</g:image_link>
-      <g:price>129.95 USD</g:price>
+      <g:price>139.95 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
@@ -34,18 +34,18 @@
       <g:description><![CDATA[undefined]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_under_100_pick.html</g:link>
       <g:image_link>https://placehold.co/300x300?text=Smartwatch</g:image_link>
-      <g:price>199.99 USD</g:price>
+      <g:price>249.99 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
     
     <item>
       <g:id>smartwatches_under_100_pick-4</g:id>
-      <g:title><![CDATA[Samsung Galaxy Watch 4]]></g:title>
+      <g:title><![CDATA[Samsung Galaxy Watch 5]]></g:title>
       <g:description><![CDATA[undefined]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_under_100_pick.html</g:link>
       <g:image_link>https://placehold.co/300x300?text=Smartwatch</g:image_link>
-      <g:price>149.99 USD</g:price>
+      <g:price>229.00 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
