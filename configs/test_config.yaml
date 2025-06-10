@@ -1,0 +1,12 @@
+id: smartwatches_test
+slug: smartwatches_test
+title: Best Smartwatches for Fitness
+description: A curated list of fitness smartwatches with GPS and heart rate tracking.
+feed: feeds/smartwatches.csv
+filter:
+  category: smartwatches
+  tags:
+    - fitness
+min_items: 3
+max_products: 8
+post_type: pick

@@ -12,7 +12,3 @@ export function parseFeed(csvPath) {
   });
   return records;
 }
-
-// --- Test runner ---
-const products = parseFeed('./feeds/test_feed.csv');
-console.log(products);

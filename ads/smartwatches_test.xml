@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+  <channel>
+    <title>Best Smartwatches for Fitness</title>
+    <link>https://sortroute.com/pages/smartwatches_test.html</link>
+    <description>A curated list of fitness smartwatches with GPS and heart rate tracking.</description>
+
+    
+    <item>
+      <g:id>smartwatches_test-1</g:id>
+      <g:title><![CDATA[Fitwatch Alpha]]></g:title>
+      <g:description><![CDATA[Compact fitness watch with GPS and heart tracking]]></g:description>
+      <g:link>https://sortroute.com/pages/smartwatches_test.html</g:link>
+      <g:image_link>https://via.placeholder.com/300</g:image_link>
+      <g:price>99.99 USD</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+    </item>
+    
+    <item>
+      <g:id>smartwatches_test-2</g:id>
+      <g:title><![CDATA[CardioPulse Pro]]></g:title>
+      <g:description><![CDATA[Advanced fitness tracking for everyday workouts]]></g:description>
+      <g:link>https://sortroute.com/pages/smartwatches_test.html</g:link>
+      <g:image_link>https://via.placeholder.com/300</g:image_link>
+      <g:price>129.00 USD</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+    </item>
+    
+    <item>
+      <g:id>smartwatches_test-3</g:id>
+      <g:title><![CDATA[RunLite Mini]]></g:title>
+      <g:description><![CDATA[Lightweight fitness-focused smartwatch]]></g:description>
+      <g:link>https://sortroute.com/pages/smartwatches_test.html</g:link>
+      <g:image_link>https://via.placeholder.com/300</g:image_link>
+      <g:price>89.95 USD</g:price>
+      <g:availability>in stock</g:availability>
+      <g:condition>new</g:condition>
+    </item>
+    
+
+  </channel>
+</rss>
