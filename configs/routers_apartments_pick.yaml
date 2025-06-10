@@ -1,0 +1,11 @@
+id: routers_apartments_pick
+title: Top-Rated Routers for Apartments
+description: Routers well-suited for apartment setups — compact, efficient, and strong signal performance in close quarters.
+feed: feeds/staging.csv
+filter:
+  category: Router
+  use_case: Apartment
+max_products: 5
+badge: Editor's Pick
+priority: high
+status: live

@@ -1,0 +1,10 @@
+id: smartwatches_battery_pick
+title: Smartwatches with Long Battery Life
+description: Compare top-rated smartwatches that offer extended battery life for all-day and multi-day use.
+feed: feeds/smartwatches.csv
+filter:
+  category: Smartwatch
+max_products: 5
+badge: Editor's Pick
+priority: high
+status: live

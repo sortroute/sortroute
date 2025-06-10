@@ -1,11 +1,16 @@
-title,price,brand,category,link,image
-Amazfit Bip U Pro,69.99,Amazfit,Smartwatch,https://www.amazon.com/dp/B08DFLG5SP?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Fitbit Charge 5,139.95,Fitbit,Smartwatch,https://www.amazon.com/dp/B09BXQ7P52?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Garmin Venu Sq 2,249.99,Garmin,Smartwatch,https://www.amazon.com/dp/B0B5BND3QV?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Samsung Galaxy Watch 5,229.00,Samsung,Smartwatch,https://www.amazon.com/dp/B0B2JDQW9B?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Apple Watch SE (2nd Gen),249.00,Apple,Smartwatch,https://www.amazon.com/dp/B0BDKBYPWW?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Amazfit GTS 2 Mini,89.99,Amazfit,Smartwatch,https://www.amazon.com/dp/B08V8K4YQ3?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Garmin Forerunner 55,199.99,Garmin,Smartwatch,https://www.amazon.com/dp/B0949KCPFS?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Fitbit Inspire 3,99.95,Fitbit,Smartwatch,https://www.amazon.com/dp/B0B3DQPC9P?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Samsung Galaxy Fit 2,49.99,Samsung,Smartwatch,https://www.amazon.com/dp/B08HR16WPG?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
-Yamay Smart Watch,39.99,Yamay,Smartwatch,https://www.amazon.com/dp/B088W54GVG?tag=sortroute-20,https://placehold.co/300x300?text=Smartwatch
+title,price,brand,category,link,image,features
+Apple Watch Ultra 2 [GPS + Cellular 49mm] Smartwatch,839.00,Apple,Smartwatch,https://www.amazon.com/dp/B0DGHPYSGJ,https://m.media-amazon.com/images/I/71pQJIbENwL._AC_UY218_.jpg,GPS|Cellular|Heart Rate Monitor|Sleep Monitor|Fitness Tracker|Water Resistant|Battery 36h normal use
+Apple Watch Series 8 [GPS 41mm] Smart Watch,329.00,Apple,Smartwatch,https://www.amazon.com/dp/B0BDJBG74R,https://m.media-amazon.com/images/I/71V7CX0K6zL._AC_UY218_.jpg,GPS|Heart Rate Monitor|Sleep Monitor|ECG|Water Resistant
+Amazfit Bip 5 Unity Smart Watch 46mm,49.99,Amazfit,Smartwatch,https://www.amazon.com/dp/B0CZP7VM8G,https://m.media-amazon.com/images/I/61HjG8NE9BL._AC_UY218_.jpg,GPS via Smartphone|Heart Rate Monitor|SpO2|120+ Sports Modes|Battery 11 days
+Amazfit Cheetah Smart Watch 47mm,109.99,Amazfit,Smartwatch,https://www.amazon.com/dp/B0C6TD76SN,https://m.media-amazon.com/images/I/61HkdPfOxQL._AC_UY218_.jpg,GPS built-in|Heart Rate Monitor|SpO2|AI Running Coach|Alexa Built-in|150+ Sports Modes|Battery 14 days
+Garmin tactix® 8 51mm Solar,1399.99,Garmin,Smartwatch,https://www.amazon.com/dp/B0DX2DGFTS,https://m.media-amazon.com/images/I/61tvy3VR7dL._AC_UY218_.jpg,GPS|Solar Charging|Tactical Features|Heart Rate Monitor|Water Resistant 100m|Battery 48 days smartwatch mode
+Garmin epix Pro (Gen 2) 42mm,610.00,Garmin,Smartwatch,https://www.amazon.com/dp/B0BYFBB2GQ,https://m.media-amazon.com/images/I/61PFlKpz0gL._AC_UY218_.jpg,GPS|AMOLED|LED Flashlight|Heart Rate Monitor|Multi-GNSS|Water Resistant
+Samsung Galaxy Watch 5 Pro Golf Edition 45mm,329.98,Samsung,Smartwatch,https://www.amazon.com/dp/B0B9YTCCKN,https://m.media-amazon.com/images/I/61q9pLklq-L._AC_UY218_.jpg,GPS|Heart Rate Monitor|Sleep Tracker|Golf Features|Battery Improved
+Fitbit Sense 2 Advanced Health Smartwatch,349.90,Fitbit,Smartwatch,https://www.amazon.com/dp/B0CRR2QSNC,https://m.media-amazon.com/images/I/61u1dAUGRHL._AC_UY218_.jpg,Stress Management|Sleep Tracker|Heart Rate Monitor|SpO2|GPS Built-in|40+ Exercise Modes
+Amazfit T-Rex Ultra Tactical Smart Watch 47mm,333.14,Amazfit,Smartwatch,https://www.amazon.com/dp/B0BV2SM914,https://m.media-amazon.com/images/I/61ll61VLm0L._AC_UY218_.jpg,Dual-band GPS|Mud Resistant|Freediving Support 30m|Battery 20 days
+Garmin Instinct Crossover Solar Tactical Edition,399.99,Garmin,Smartwatch,https://www.amazon.com/dp/B0BHTW6DLX,https://m.media-amazon.com/images/I/61DlujWc8HL._AC_UY218_.jpg,Analog/Digital|Solar Charging|Tactical Features|GPS|Water Resistant 100m
+Samsung Galaxy Watch 5 40mm LTE,329.99,Samsung,Smartwatch,https://www.amazon.com/dp/B0B2HWT9XG,https://m.media-amazon.com/images/I/61c0-Cj-9nL._AC_UY218_.jpg,LTE|GPS via Smartphone|Heart Rate Monitor|Sleep Tracker|Battery Improved
+Apple Watch Series 8 [GPS + Cellular 45mm],749.99,Apple,Smartwatch,https://www.amazon.com/dp/B0BDJ3FXJV,https://m.media-amazon.com/images/I/71S73VP4ttL._AC_UY218_.jpg,GPS|Cellular|ECG|Blood Oxygen|Crash Detection|Water Resistant
+Amazfit Balance Smart Watch,168.07,Amazfit,Smartwatch,https://www.amazon.com/dp/B0CW8WHJHT,https://m.media-amazon.com/images/I/61zsTqJoP-L._AC_UY218_.jpg,GPS|Body Composition Measurement|Sleep Monitor|Heart Rate Monitor
+Apple Watch Series 10 [GPS 42mm case],329.00,Apple,Smartwatch,https://www.amazon.com/dp/B0DGJBRKHV,https://m.media-amazon.com/images/I/71HNQwwYJ0L._AC_UY218_.jpg,GPS|ECG|Always-On Retina|Carbon Neutral|Heart Rate Monitor|Sleep Tracking
+Apple Watch Series 10 [GPS 46mm case],329.00,Apple,Smartwatch,https://www.amazon.com/dp/B0DGHQ2QH6,https://m.media-amazon.com/images/I/71NZPTnSccL._AC_UY218_.jpg,GPS|ECG|Always-On Retina|Heart Rate Monitor|Water Resistant

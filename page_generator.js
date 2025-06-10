@@ -24,7 +24,7 @@ export function generatePage(config, products, outputPath) {
         <img src="${p.image}" alt="${p.title}" />
         <h2>${p.title}</h2>
         <p class="price">${p.price}</p>
-        <p>${p.description}</p>
+        ${p.description ? `<p>${p.description}</p>` : ''}
         <a href="${p.link}" target="_blank">Buy Now</a>
       </div>
     `).join('')}

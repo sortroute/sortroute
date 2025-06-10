@@ -1,0 +1,11 @@
+id: routers_under_100_pick
+title: Routers Under $100
+description: Discover budget-friendly Wi-Fi routers under $100 that deliver reliable speed for home use.
+feed: feeds/staging.csv
+filter:
+  category: Router
+  max_price: 100
+max_products: 5
+badge: Editor's Pick
+priority: high
+status: live

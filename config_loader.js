@@ -7,7 +7,3 @@ export function loadConfig(configPath) {
   const config = yaml.load(file);
   return config;
 }
-
-// --- Test runner ---
-const config = loadConfig('./configs/test_config.yaml');
-console.log(config);

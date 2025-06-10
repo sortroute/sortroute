@@ -1,0 +1,11 @@
+id: earbuds_budget_pick
+title: Best Budget Wireless Earbuds
+description: Compare the best budget-friendly wireless earbuds offering solid sound and battery life.
+feed: feeds/staging.csv
+filter:
+  category: Earbuds
+  max_price: 40
+max_products: 5
+badge: Editor's Pick
+priority: high
+status: live

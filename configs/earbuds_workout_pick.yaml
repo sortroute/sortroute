@@ -1,0 +1,11 @@
+id: earbuds_workout_pick
+title: Workout Earbuds with Ear Hooks
+description: Secure-fitting earbuds with ear hooks designed to stay put during intense workouts.
+feed: feeds/staging.csv
+filter:
+  category: Earbuds
+  use_case: Workout
+max_products: 5
+badge: Editor's Pick
+priority: high
+status: live

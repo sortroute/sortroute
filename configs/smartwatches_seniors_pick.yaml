@@ -1,0 +1,10 @@
+id: smartwatches_seniors_pick
+title: Smartwatches for Seniors
+description: Explore smartwatches designed for seniors, with features like heart monitoring, large displays, and emergency alerts.
+feed: feeds/smartwatches.csv
+filter:
+  category: Smartwatch
+max_products: 5
+badge: Editor's Pick
+priority: high
+status: live
