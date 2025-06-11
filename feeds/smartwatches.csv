@@ -1,4 +1,4 @@
 title,price,category,tags,image,link,description
-"Fitwatch Alpha",99.99,smartwatches,"fitness,gps","https://via.placeholder.com/300","https://www.amazon.com/dp/example1","Compact fitness watch with GPS and heart tracking"
-"CardioPulse Pro",129.00,smartwatches,"fitness,battery","https://via.placeholder.com/300","https://www.amazon.com/dp/example2","Advanced fitness tracking for everyday workouts"
-"RunLite Mini",89.95,smartwatches,"fitness","https://via.placeholder.com/300","https://www.amazon.com/dp/example3","Lightweight fitness-focused smartwatch"
+"Fitwatch Alpha",99.99,smartwatches,"fitness,gps","https://placehold.co/300x300?text=Product","https://www.amazon.com/dp/example1","Compact fitness watch with GPS and heart tracking"
+"CardioPulse Pro",129.00,smartwatches,"fitness,battery","https://placehold.co/300x300?text=Product","https://www.amazon.com/dp/example2","Advanced fitness tracking for everyday workouts"
+"RunLite Mini",89.95,smartwatches,"fitness","https://placehold.co/300x300?text=Product","https://www.amazon.com/dp/example3","Lightweight fitness-focused smartwatch"
