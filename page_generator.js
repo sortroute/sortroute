@@ -23,6 +23,9 @@ export function generatePage(config, products, outputPath) {
     <header class="space-y-2 text-center">
       <h1 class="text-2xl font-semibold">${title}</h1>
       <p class="text-gray-600">${description}</p>
+      <p class="text-sm text-gray-500">
+        Compare top options below. Prices and availability are subject to change.
+      </p>
     </header>
 
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
