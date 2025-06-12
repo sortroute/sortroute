@@ -4,6 +4,17 @@ export function generatePage(config, products, outputPath) {
   const { id, title, description } = config;
   const canonicalUrl = `https://sortroute.com/pages/${id}.html`;
 
+  let bestValueIndex = -1;
+  let bestValuePrice = Infinity;
+
+  for (let i = 0; i < products.length; i++) {
+    const price = parseFloat(products[i].price.replace(/[^0-9.]/g, ''));
+    if (!isNaN(price) && price < bestValuePrice) {
+      bestValuePrice = price;
+      bestValueIndex = i;
+    }
+  }
+
   const html = `
 <!DOCTYPE html>
 <html lang="en">
@@ -29,8 +40,11 @@ export function generatePage(config, products, outputPath) {
     </header>
 
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-      ${products.map(p => `
-        <div class="border rounded-lg p-4 shadow-sm hover:shadow-md transition">
+      ${products.map((p, idx) => {
+        const badge = idx === bestValueIndex ? `<div class="absolute top-2 left-2 bg-green-600 text-white text-xs px-2 py-1 rounded">Best Value</div>` : '';
+        return `
+        <div class="relative border rounded-lg p-4 shadow-sm hover:shadow-md transition">
+          ${badge}
           <div class="aspect-[4/3] overflow-hidden rounded-md mb-4">
             <img src="${p.image}" alt="${p.title}" class="w-full h-full object-cover" />
           </div>
@@ -41,7 +55,8 @@ export function generatePage(config, products, outputPath) {
             Buy Now
           </a>
         </div>
-      `).join('')}
+        `
+      }).join('')}
     </section>
   </main>
 
