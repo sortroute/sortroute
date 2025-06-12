@@ -10,64 +10,78 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-<body class="bg-white text-gray-800">
-  <main class="max-w-4xl mx-auto px-4 py-10 space-y-6">
-    <header class="space-y-2 text-center">
-      <h1 class="text-2xl font-semibold">Best Smartwatches for Fitness</h1>
-      <p class="text-gray-600">A curated list of fitness smartwatches with GPS and heart rate tracking.</p>
-      <p class="text-sm text-gray-500">
-        Compare top options below. Prices and availability are subject to change.
-      </p>
+<body class="bg-white text-gray-800 antialiased">
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
+    <header class="space-y-4 text-center">
+      <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight">Best Smartwatches for Fitness</h1>
+      <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">A curated list of fitness smartwatches with GPS and heart rate tracking.</p>
+      <p class="text-sm text-gray-500">Compare top options below. Prices and availability are subject to change.</p>
     </header>
 
-    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       
-        <div class="relative border rounded-lg p-4 shadow-sm hover:shadow-md transition">
-          
-          <div class="aspect-[4/3] overflow-hidden rounded-md mb-4">
-            <img src="https://placehold.co/300x300?text=Product" alt="Fitwatch Alpha" class="w-full h-full object-cover" />
+        <div class="flex flex-col justify-between border rounded-2xl p-5 shadow-sm hover:shadow-md transition group bg-white h-full">
+          <div>
+            <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4">
+              <img src="https://placehold.co/300x300?text=Product" alt="Fitwatch Alpha" class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+              
+                <div class="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
+                  Best Value
+                </div>
+            </div>
+            <h2 class="text-base font-medium leading-snug">Fitwatch Alpha</h2>
+            <p class="text-sm text-gray-600 mt-1">Compact fitness watch with GPS and heart tracking</p>
+            <p class="text-base font-semibold text-gray-800 mt-3">99.99</p>
           </div>
-          <h2 class="text-lg font-medium">Fitwatch Alpha</h2>
-          <p class="text-sm text-gray-600 mt-1">Compact fitness watch with GPS and heart tracking</p>
-          <p class="text-base font-semibold mt-2">99.99</p>
-          <a href="https://www.amazon.com/dp/example1" target="_blank" class="inline-block mt-4 bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded hover:bg-blue-700">
-            Buy Now
-          </a>
+<a href="https://www.amazon.com/dp/example1" target="_blank"
+  class="inline-flex items-center justify-center w-full mt-6 bg-yellow-400 text-black text-lg font-bold px-6 py-4 rounded-md hover:bg-yellow-500 transition">
+  <i class="fa-brands fa-amazon mr-2 text-xl"></i>
+  View on Amazon
+</a>
         </div>
         
-        <div class="relative border rounded-lg p-4 shadow-sm hover:shadow-md transition">
-          
-          <div class="aspect-[4/3] overflow-hidden rounded-md mb-4">
-            <img src="https://placehold.co/300x300?text=Product" alt="CardioPulse Pro" class="w-full h-full object-cover" />
+        <div class="flex flex-col justify-between border rounded-2xl p-5 shadow-sm hover:shadow-md transition group bg-white h-full">
+          <div>
+            <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4">
+              <img src="https://placehold.co/300x300?text=Product" alt="CardioPulse Pro" class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+              
+            </div>
+            <h2 class="text-base font-medium leading-snug">CardioPulse Pro</h2>
+            <p class="text-sm text-gray-600 mt-1">Advanced fitness tracking for everyday workouts</p>
+            <p class="text-base font-semibold text-gray-800 mt-3">129.00</p>
           </div>
-          <h2 class="text-lg font-medium">CardioPulse Pro</h2>
-          <p class="text-sm text-gray-600 mt-1">Advanced fitness tracking for everyday workouts</p>
-          <p class="text-base font-semibold mt-2">129.00</p>
-          <a href="https://www.amazon.com/dp/example2" target="_blank" class="inline-block mt-4 bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded hover:bg-blue-700">
-            Buy Now
-          </a>
+<a href="https://www.amazon.com/dp/example2" target="_blank"
+  class="inline-flex items-center justify-center w-full mt-6 bg-yellow-400 text-black text-lg font-bold px-6 py-4 rounded-md hover:bg-yellow-500 transition">
+  <i class="fa-brands fa-amazon mr-2 text-xl"></i>
+  View on Amazon
+</a>
         </div>
         
-        <div class="relative border rounded-lg p-4 shadow-sm hover:shadow-md transition">
-          <div class="absolute top-2 left-2 bg-green-600 text-white text-xs px-2 py-1 rounded">Best Value</div>
-          <div class="aspect-[4/3] overflow-hidden rounded-md mb-4">
-            <img src="https://placehold.co/300x300?text=Product" alt="RunLite Mini" class="w-full h-full object-cover" />
+        <div class="flex flex-col justify-between border rounded-2xl p-5 shadow-sm hover:shadow-md transition group bg-white h-full">
+          <div>
+            <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4">
+              <img src="https://placehold.co/300x300?text=Product" alt="RunLite Mini" class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+              
+            </div>
+            <h2 class="text-base font-medium leading-snug">RunLite Mini</h2>
+            <p class="text-sm text-gray-600 mt-1">Lightweight fitness-focused smartwatch</p>
+            <p class="text-base font-semibold text-gray-800 mt-3">89.95</p>
           </div>
-          <h2 class="text-lg font-medium">RunLite Mini</h2>
-          <p class="text-sm text-gray-600 mt-1">Lightweight fitness-focused smartwatch</p>
-          <p class="text-base font-semibold mt-2">89.95</p>
-          <a href="https://www.amazon.com/dp/example3" target="_blank" class="inline-block mt-4 bg-blue-600 text-white text-sm font-medium px-4 py-2 rounded hover:bg-blue-700">
-            Buy Now
-          </a>
+<a href="https://www.amazon.com/dp/example3" target="_blank"
+  class="inline-flex items-center justify-center w-full mt-6 bg-yellow-400 text-black text-lg font-bold px-6 py-4 rounded-md hover:bg-yellow-500 transition">
+  <i class="fa-brands fa-amazon mr-2 text-xl"></i>
+  View on Amazon
+</a>
         </div>
         
     </section>
   </main>
 
-  <footer class="text-center text-sm text-gray-500 py-8">
-    <a href="/privacy-policy.html" class="mx-2 hover:underline">Privacy Policy</a>
-    <a href="/terms-of-service.html" class="mx-2 hover:underline">Terms of Service</a>
+  <footer class="text-center text-sm text-gray-500 py-10">
+    <a href="/privacy-policy.html" class="mx-3 hover:underline">Privacy Policy</a>
+    <a href="/terms-of-service.html" class="mx-3 hover:underline">Terms of Service</a>
   </footer>
 </body>
 </html>
