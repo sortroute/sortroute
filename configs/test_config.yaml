@@ -10,5 +10,7 @@ filter:
 badges:
   longbattery: Long Battery
   waterproof: Waterproof Design
+  gps: Built-in GPS
 min_items: 3
 max_products: 8
+post_type: pick
