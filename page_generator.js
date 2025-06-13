@@ -1,8 +1,22 @@
 import fs from 'fs';
 
 export function generatePage(config, products, outputPath) {
-  const { id, title, description } = config;
+  const { id, title, description, badges = {} } = config;
   const canonicalUrl = `https://sortroute.com/pages/${id}.html`;
+
+  let usedBadgeTags = new Set();
+  let badgeLimit = 2;
+
+  const productsWithBadges = products.map((p) => {
+    const tags = (p.tags || '').split(',').map(t => t.trim());
+    for (const tag of tags) {
+      if (badges[tag] && !usedBadgeTags.has(tag) && usedBadgeTags.size < badgeLimit) {
+        usedBadgeTags.add(tag);
+        return { ...p, badge: badges[tag] };
+      }
+    }
+    return p;
+  });
 
   const html = `
 <!DOCTYPE html>
@@ -20,42 +34,43 @@ export function generatePage(config, products, outputPath) {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body class="bg-white text-gray-800 antialiased">
-  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
+  <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-14">
     <header class="space-y-4 text-center">
-      <h1 class="text-3xl sm:text-4xl font-semibold tracking-tight">${title}</h1>
-      <p class="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto">${description}</p>
-      <p class="text-sm text-gray-500">Compare top options below. Prices and availability are subject to change.</p>
+      <h1 class="text-2xl sm:text-4xl font-semibold tracking-tight">${title}</h1>
+      <p class="text-sm sm:text-lg text-gray-600 max-w-2xl mx-auto">${description}</p>
+      <p class="text-xs sm:text-sm text-gray-500">Prices and availability are subject to change.</p>
     </header>
 
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      ${products.map((p, index) => {
-        const showBadge = index === 0;
+      ${productsWithBadges.map((p) => {
+        const badgeHtml = p.badge ? `
+          <div class="absolute top-2 left-2 bg-gray-800 text-white text-xs font-medium px-2.5 py-1 rounded-full shadow-sm">
+            ${p.badge}
+          </div>` : '';
+
         return `
         <div class="flex flex-col justify-between border rounded-2xl p-5 shadow-sm hover:shadow-md transition group bg-white h-full">
           <div>
             <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4">
               <img src="${p.image}" alt="${p.title}" class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
-              ${showBadge ? `
-                <div class="absolute top-2 left-2 bg-green-600 text-white text-xs font-semibold px-2.5 py-1 rounded-full shadow-sm">
-                  Best Value
-                </div>` : ''}
+              ${badgeHtml}
             </div>
             <h2 class="text-base font-medium leading-snug">${p.title}</h2>
             ${p.description ? `<p class="text-sm text-gray-600 mt-1">${p.description}</p>` : ''}
             <p class="text-base font-semibold text-gray-800 mt-3">${p.price}</p>
           </div>
-<a href="${p.link}" target="_blank"
-  class="inline-flex items-center justify-center w-full mt-6 bg-yellow-400 text-black text-lg font-bold px-6 py-4 rounded-md hover:bg-yellow-500 transition">
-  <i class="fa-brands fa-amazon mr-2 text-xl"></i>
-  View on Amazon
-</a>
+          <a href="${p.link}" target="_blank"
+            class="inline-flex items-center justify-center w-full max-w-xs mx-auto mt-6 bg-yellow-400 text-black text-base sm:text-lg font-bold px-6 py-4 rounded-md hover:bg-yellow-500 transition">
+            <i class="fa-brands fa-amazon mr-2 text-xl"></i>
+            View on Amazon
+          </a>
         </div>
         `;
       }).join('')}
     </section>
   </main>
 
-  <footer class="text-center text-sm text-gray-500 py-10">
+  <footer class="text-center text-xs sm:text-sm text-gray-500 py-6 sm:py-10">
     <a href="/privacy-policy.html" class="mx-3 hover:underline">Privacy Policy</a>
     <a href="/terms-of-service.html" class="mx-3 hover:underline">Terms of Service</a>
   </footer>

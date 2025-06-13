@@ -1,12 +1,14 @@
-id: smartwatches_test
-slug: smartwatches_test
-title: Best Smartwatches for Fitness
-description: A curated list of fitness smartwatches with GPS and heart rate tracking.
+id: smartwatches_fitness
+slug: smartwatches_fitness
+title: Smartwatches for Fitness
+description: GPS and heart rate tracking for active use
 feed: feeds/smartwatches.csv
 filter:
   category: smartwatches
   tags:
     - fitness
+badges:
+  longbattery: Long Battery
+  waterproof: Waterproof Design
 min_items: 3
 max_products: 8
-post_type: pick
