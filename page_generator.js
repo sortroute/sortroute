@@ -3,7 +3,6 @@ import fs from 'fs';
 export function generatePage(config, products, outputPath) {
   const { id, title, description, badges = {} } = config;
   const canonicalUrl = `https://sortroute.com/pages/${id}.html`;
-
   const selectedProducts = products.slice(0, config.max_products || 8);
 
   const tagCount = {};
@@ -49,6 +48,16 @@ export function generatePage(config, products, outputPath) {
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    @media (hover: none) {
+      .no-mobile-hover\:hover\:shadow-md:hover {
+        box-shadow: none !important;
+      }
+      .no-mobile-hover\:group-hover\:scale-105:focus {
+        transform: none !important;
+      }
+    }
+  </style>
 </head>
 <body class="bg-white text-gray-800 antialiased">
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
@@ -66,10 +75,10 @@ export function generatePage(config, products, outputPath) {
           </div>` : '';
 
         return `
-        <div class="flex flex-col justify-between border rounded-2xl p-5 shadow-sm hover:shadow-md transition group bg-white h-full">
+        <div class="flex flex-col justify-between border rounded-2xl p-5 shadow-sm no-mobile-hover:hover:shadow-md transition group bg-white h-full">
           <div>
             <div class="relative aspect-[4/3] overflow-hidden rounded-lg mb-4">
-              <img src="${p.image}" alt="${p.title}" class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+              <img src="${p.image}" alt="${p.title}" class="w-full h-full object-cover transition duration-300 no-mobile-hover:group-hover:scale-105" />
               ${badgeHtml}
             </div>
             <h2 class="text-lg font-semibold leading-snug">${p.title}</h2>
