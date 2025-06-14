@@ -1,10 +1,5 @@
 title,price,category,tags,image,link,description
-"Fitwatch Alpha",99.99,smartwatches,"fitness,longbattery","https://placehold.co/300x300?text=Alpha","https://www.amazon.com/dp/example1","Compact fitness watch with GPS and heart tracking"
-"CardioPulse Pro",129.00,smartwatches,"fitness,gps","https://placehold.co/300x300?text=Cardio","https://www.amazon.com/dp/example2","Advanced fitness tracking for everyday workouts"
-"RunLite Mini",89.95,smartwatches,"fitness,waterproof","https://placehold.co/300x300?text=RunLite","https://www.amazon.com/dp/example3","Lightweight fitness-focused smartwatch"
-"StepMax Ultra",149.00,smartwatches,"fitness,longbattery","https://placehold.co/300x300?text=StepMax","https://www.amazon.com/dp/example4","Smartwatch with extended battery for athletes"
-"PulseTracker S",109.00,smartwatches,"fitness,waterproof","https://placehold.co/300x300?text=PulseTracker","https://www.amazon.com/dp/example5","Durable design for all weather training"
-"EcoFit Neo",119.99,smartwatches,"fitness,gps","https://placehold.co/300x300?text=EcoFit","https://www.amazon.com/dp/example6","Eco-friendly design with smart tracking"
-"StriveEdge Z",199.99,smartwatches,"fitness","https://placehold.co/300x300?text=StriveEdge","https://www.amazon.com/dp/example7","Premium smartwatch for everyday performance"
-"MoveCore Lite",79.95,smartwatches,"fitness,longbattery","https://placehold.co/300x300?text=MoveCore","https://www.amazon.com/dp/example8","Lightweight and long-lasting battery life"
-"SportX Ignite",139.00,smartwatches,"fitness,gps","https://placehold.co/300x300?text=SportX","https://www.amazon.com/dp/example9","Engineered for high intensity workouts"
+Model A,99.00,smartwatches,longbattery,https://placehold.co/300x300?text=A,https://amazon.com/dp/A,Desc A
+Model B,99.00,smartwatches,longbattery,https://placehold.co/300x300?text=B,https://amazon.com/dp/B,Desc B
+Model C,99.00,smartwatches,waterproof,https://placehold.co/300x300?text=C,https://amazon.com/dp/C,Desc C
+Model D,99.00,smartwatches,,https://placehold.co/300x300?text=D,https://amazon.com/dp/D,Desc D

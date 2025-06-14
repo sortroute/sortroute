@@ -3,93 +3,49 @@
   <channel>
     <title>Smartwatches for Fitness</title>
     <link>https://sortroute.com/pages/smartwatches_fitness.html</link>
-    <description>GPS and heart rate tracking for active use</description>
+    <description>GPS and health features for active users</description>
 
     
     <item>
       <g:id>smartwatches_fitness-1</g:id>
-      <g:title><![CDATA[Fitwatch Alpha]]></g:title>
-      <g:description><![CDATA[Compact fitness watch with GPS and heart tracking]]></g:description>
+      <g:title><![CDATA[Model A]]></g:title>
+      <g:description><![CDATA[Desc A]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=Alpha</g:image_link>
-      <g:price>99.99 USD</g:price>
+      <g:image_link>https://placehold.co/300x300?text=A</g:image_link>
+      <g:price>99.00 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
     
     <item>
       <g:id>smartwatches_fitness-2</g:id>
-      <g:title><![CDATA[CardioPulse Pro]]></g:title>
-      <g:description><![CDATA[Advanced fitness tracking for everyday workouts]]></g:description>
+      <g:title><![CDATA[Model B]]></g:title>
+      <g:description><![CDATA[Desc B]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=Cardio</g:image_link>
-      <g:price>129.00 USD</g:price>
+      <g:image_link>https://placehold.co/300x300?text=B</g:image_link>
+      <g:price>99.00 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
     
     <item>
       <g:id>smartwatches_fitness-3</g:id>
-      <g:title><![CDATA[RunLite Mini]]></g:title>
-      <g:description><![CDATA[Lightweight fitness-focused smartwatch]]></g:description>
+      <g:title><![CDATA[Model C]]></g:title>
+      <g:description><![CDATA[Desc C]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=RunLite</g:image_link>
-      <g:price>89.95 USD</g:price>
+      <g:image_link>https://placehold.co/300x300?text=C</g:image_link>
+      <g:price>99.00 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>
     
     <item>
       <g:id>smartwatches_fitness-4</g:id>
-      <g:title><![CDATA[StepMax Ultra]]></g:title>
-      <g:description><![CDATA[Smartwatch with extended battery for athletes]]></g:description>
+      <g:title><![CDATA[Model D]]></g:title>
+      <g:description><![CDATA[Desc D]]></g:description>
       <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=StepMax</g:image_link>
-      <g:price>149.00 USD</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-    </item>
-    
-    <item>
-      <g:id>smartwatches_fitness-5</g:id>
-      <g:title><![CDATA[PulseTracker S]]></g:title>
-      <g:description><![CDATA[Durable design for all weather training]]></g:description>
-      <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=PulseTracker</g:image_link>
-      <g:price>109.00 USD</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-    </item>
-    
-    <item>
-      <g:id>smartwatches_fitness-6</g:id>
-      <g:title><![CDATA[EcoFit Neo]]></g:title>
-      <g:description><![CDATA[Eco-friendly design with smart tracking]]></g:description>
-      <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=EcoFit</g:image_link>
-      <g:price>119.99 USD</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-    </item>
-    
-    <item>
-      <g:id>smartwatches_fitness-7</g:id>
-      <g:title><![CDATA[StriveEdge Z]]></g:title>
-      <g:description><![CDATA[Premium smartwatch for everyday performance]]></g:description>
-      <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=StriveEdge</g:image_link>
-      <g:price>199.99 USD</g:price>
-      <g:availability>in stock</g:availability>
-      <g:condition>new</g:condition>
-    </item>
-    
-    <item>
-      <g:id>smartwatches_fitness-8</g:id>
-      <g:title><![CDATA[MoveCore Lite]]></g:title>
-      <g:description><![CDATA[Lightweight and long-lasting battery life]]></g:description>
-      <g:link>https://sortroute.com/pages/smartwatches_fitness.html</g:link>
-      <g:image_link>https://placehold.co/300x300?text=MoveCore</g:image_link>
-      <g:price>79.95 USD</g:price>
+      <g:image_link>https://placehold.co/300x300?text=D</g:image_link>
+      <g:price>99.00 USD</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
     </item>

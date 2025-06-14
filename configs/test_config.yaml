@@ -1,16 +1,15 @@
 id: smartwatches_fitness
 slug: smartwatches_fitness
 title: Smartwatches for Fitness
-description: GPS and heart rate tracking for active use
+description: GPS and health features for active users
 feed: feeds/smartwatches.csv
 filter:
   category: smartwatches
-  tags:
-    - fitness
 badges:
-  longbattery: Long Battery
-  waterproof: Waterproof Design
   gps: Built-in GPS
+  longbattery: Long Battery Life
+  waterproof: Waterproof Design
+  ecg: ECG Support
+  fitness: Fitness Focus
 min_items: 3
 max_products: 8
-post_type: pick
