@@ -70,15 +70,14 @@ export function generatePage(config, products, outputPath) {
 <body class="bg-white text-gray-800 antialiased">
   <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-10">
     <header class="space-y-6 text-center">
-      <h1 class="text-4xl sm:text-5xl font-semibold tracking-tight">${title}</h1>
-      <p class="text-xl sm:text-2xl text-gray-600 max-w-2xl mx-auto">${description}</p>
-      <p class="text-sm text-gray-500 mt-2">Prices and availability are subject to change.</p>
+      <h1 class="text-4xl sm:text-5xl font-semibold leading-tight tracking-tight">${title}</h1>
+      <p class="text-xl sm:text-2xl font-medium text-gray-700 leading-relaxed max-w-2xl mx-auto">${description}</p>
     </header>
 
     <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       ${productsWithBadges.map((p) => {
         const badgeHtml = p.badge ? `
-          <div class="absolute top-2 left-2 bg-white/90 text-gray-900 text-xs font-medium px-2.5 py-1 rounded-full ring-1 ring-gray-300 shadow-sm">
+          <div class="absolute top-2 left-2 bg-gray-100 text-gray-900 text-sm font-semibold px-3 py-1.5 rounded-full ring-1 ring-gray-300 shadow-sm">
             ${p.badge}
           </div>` : '';
 
@@ -90,7 +89,7 @@ export function generatePage(config, products, outputPath) {
               ${badgeHtml}
             </div>
             <h2 class="text-lg font-semibold leading-snug">${p.title}</h2>
-            ${p.description ? `<p class="text-sm text-gray-600 mt-1">${p.description}</p>` : ''}
+            ${p.description ? `<p class="text-base text-gray-700 mt-1">${p.description}</p>` : ''}
             <p class="text-base font-semibold text-gray-800 mt-3">${p.price}</p>
           </div>
           <a href="${p.link}" target="_blank"
@@ -104,9 +103,14 @@ export function generatePage(config, products, outputPath) {
     </section>
   </main>
 
-  <footer class="text-center text-sm text-gray-500 py-10">
-    <a href="/privacy-policy.html" class="mx-3 hover:underline">Privacy Policy</a>
-    <a href="/terms-of-service.html" class="mx-3 hover:underline">Terms of Service</a>
+  <p class="text-xs text-gray-400 text-center mt-12 space-y-1">
+    <span>Prices and availability are subject to change without notice.</span><br />
+    <span>This page contains affiliate links, including participation in the Amazon Associates Program.</span>
+  </p>
+
+  <footer class="text-center text-xs text-gray-400 py-10 space-x-4">
+    <a href="/privacy-policy.html" class="hover:underline">Privacy Policy</a>
+    <a href="/terms-of-service.html" class="hover:underline">Terms of Service</a>
   </footer>
 </body>
 </html>
