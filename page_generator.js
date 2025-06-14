@@ -56,6 +56,14 @@ export function generatePage(config, products, outputPath) {
       .no-mobile-hover\:group-hover\:scale-105:focus {
         transform: none !important;
       }
+      .btn-tap:hover {
+        background-color: #FF9900 !important;
+        color: #000 !important;
+      }
+      .btn-tap:active {
+        background-color: #000 !important;
+        color: #fff !important;
+      }
     }
   </style>
 </head>
@@ -86,7 +94,7 @@ export function generatePage(config, products, outputPath) {
             <p class="text-base font-semibold text-gray-800 mt-3">${p.price}</p>
           </div>
           <a href="${p.link}" target="_blank"
-            class="inline-flex items-center justify-center w-full mt-6 bg-[#FF9900] text-black text-lg font-bold px-6 py-4 rounded-md hover:bg-black hover:text-white transition">
+            class="btn-tap inline-flex items-center justify-center w-full mt-6 bg-[#FF9900] text-black text-lg font-bold px-6 py-4 rounded-md hover:bg-black hover:text-white transition">
             <i class="fa-brands fa-amazon mr-2 text-xl"></i>
             View on Amazon
           </a>
