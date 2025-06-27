@@ -1,12 +1,485 @@
 [
   {
-    "title": "Amazfit GTS 4 Mini",
-    "image": "https://example.com/gts4.jpg",
-    "url": "https://www.amazon.com/dp/B0BXYZ1234?tag=sortroute-20"
+    "title": "Amazfit Band 7",
+    "link": "https://www.amazon.com/dp/B09Z6CRHJ6?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61-PhP53C2L._AC_SL1500_.jpg",
+    "description": "Slim fitness band with AMOLED display, heart rate and SpO2 tracking, sleep monitoring, 18-day battery life, 120 sports modes, Alexa built-in, and water resistance.",
+    "asin": "B09Z6CRHJ6"
   },
   {
-    "title": "Garmin Venu Sq",
-    "image": "https://example.com/venu-sq.jpg",
-    "url": "https://www.amazon.com/dp/B0BXYZ5678?tag=sortroute-20"
+    "title": "Amazfit Bip 3 Pro",
+    "link": "https://www.amazon.com/dp/B09X1NN4YS?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71mQODFBoBL._AC_SL1500_.jpg",
+    "description": "Affordable fitness tracker with built-in GPS, heart rate and SpO2 monitoring, sleep tracking, water resistance, and 14-day battery life.",
+    "asin": "B09X1NN4YS"
+  },
+  {
+    "title": "Amazfit GTR Mini",
+    "link": "https://www.amazon.com/dp/B0BWF33MMB?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61b-75iHbuL._AC_SL1378_.jpg",
+    "description": "Smartwatch with 14-day battery life, built-in GPS, 120+ sports modes, heart rate and blood oxygen monitoring, stress tracking, and sleep analysis.",
+    "asin": "B0BWF33MMB"
+  },
+  {
+    "title": "Amazfit GTR 3 Pro",
+    "link": "https://www.amazon.com/dp/B09H5VPVKS?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61UdOn+Xb8L._AC_SL1500_.jpg",
+    "description": "Smartwatch with 14-day battery life, built-in GPS, 150+ sports modes, heart rate and blood oxygen monitoring, stress tracking, sleep tracking, Bluetooth calls, music storage, and Alexa voice control.",
+    "asin": "B09H5VPVKS"
+  },
+  {
+    "title": "Apple Watch SE (2nd Gen)",
+    "link": "https://www.amazon.com/dp/B0DGJ73CFS?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61umEhyV-UL._AC_SL1500_.jpg",
+    "description": "Entry-level Apple smartwatch with core fitness tracking, heart rate monitoring, sleep tracking, and fall detection.",
+    "asin": "B0DGJ73CFS"
+  },
+  {
+    "title": "Amazfit GTR 3 Pro Limited Edition",
+    "link": "https://www.amazon.com/dp/B09XVDGNPT?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61X5bcOJo9L._AC_SL1500_.jpg",
+    "description": "Premium smartwatch with 12-day battery life, Alexa, GPS, heart rate and sleep tracking, stress and blood oxygen monitoring, Bluetooth calls, music storage, and 150+ sports modes.",
+    "asin": "B09XVDGNPT"
+  },
+  {
+    "title": "Fitbit Charge 6",
+    "link": "https://www.amazon.com/dp/B0CC644KMJ?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/619to+LfvJL._AC_SL1500_.jpg",
+    "description": "Fitness tracker with built-in GPS, heart rate monitoring, ECG, contactless payments, sleep tracking, and 40+ exercise modes.",
+    "asin": "B0CC644KMJ"
+  },
+  {
+    "title": "Garmin Approach S12",
+    "link": "https://www.amazon.com/dp/B08X1L2CDK?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71LpVPhyZPL._AC_SL1500_.jpg",
+    "description": "Simplified golf GPS watch with over 42,000 preloaded courses, long battery life, and smart scoring tools.",
+    "asin": "B08X1L2CDK"
+  },
+  {
+    "title": "Amazfit Balance",
+    "link": "https://www.amazon.com/dp/B0C7GGYS7M?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61ACOwvUwSL._AC_SL1500_.jpg",
+    "description": "Smartwatch with body composition analysis, GPS, heart rate, stress tracking, sleep recovery, Bluetooth calling, and Alexa built-in.",
+    "asin": "B0C7GGYS7M"
+  },
+  {
+    "title": "Amazfit GTS 3",
+    "link": "https://www.amazon.com/dp/B09H5TWZQT?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61v3RM+Y9-L._AC_SL1500_.jpg",
+    "description": "Smartwatch with Alexa, AMOLED display, GPS, heart rate and sleep tracking, stress and blood oxygen monitoring, 150+ sports modes, 12-day battery, and 5 ATM water resistance.",
+    "asin": "B09H5TWZQT"
+  },
+  {
+    "title": "Fitbit Versa 4",
+    "link": "https://www.amazon.com/dp/B0B4MZWCXK?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61OEuoqFqYL._AC_SL1500_.jpg",
+    "description": "Fitness smartwatch with GPS, heart rate tracking, sleep monitoring, stress tools, 40+ workout modes, 6+ day battery life, and contactless payments.",
+    "asin": "B0B4MZWCXK"
+  },
+  {
+    "title": "Garmin Forerunner 55",
+    "link": "https://www.amazon.com/dp/B092RCLKHN?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/518z0My1ZlS._AC_SL1414_.jpg",
+    "description": "Entry-level GPS running watch with suggested workouts, heart rate tracking, GPS guidance, and 2-week battery life.",
+    "asin": "B092RCLKHN"
+  },
+  {
+    "title": "Garmin v\u00edvomove Sport",
+    "link": "https://www.amazon.com/dp/B09LRKKFCP?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71Vve2JNMPL._AC_SL1500_.jpg",
+    "description": "Hybrid smartwatch with analog hands, touchscreen, heart rate, sleep tracking, women\u2019s health features, and phone-connected GPS.",
+    "asin": "B09LRKKFCP"
+  },
+  {
+    "title": "Amazfit Cheetah Pro",
+    "link": "https://www.amazon.com/dp/B0C7ZXCKK2?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/81h5TlWEFFL._AC_SL1500_.jpg",
+    "description": "Running-focused smartwatch with AMOLED display, dual-band GPS, offline maps, AI training coach, 14-day battery life, route navigation, and Alexa built-in.",
+    "asin": "B0C7ZXCKK2"
+  },
+  {
+    "title": "Garmin Lily 2",
+    "link": "https://www.amazon.com/dp/B0CP9C4RKN?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/51WHO6yY+uL._AC_SL1200_.jpg",
+    "description": "Small and stylish smartwatch with hidden display, patterned lens, 5-day battery life, and essential health tracking features.",
+    "asin": "B0CP9C4RKN"
+  },
+  {
+    "title": "Suunto Core",
+    "link": "https://www.amazon.com/dp/B001DCEKXM?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61evLLemyGL._AC_SX1200_.jpg",
+    "description": "Classic outdoor adventure watch with altimeter, barometer, compass, storm alarm, dual time zones, and sunrise/sunset tracking.",
+    "asin": "B001DCEKXM"
+  },
+  {
+    "title": "Amazfit T-Rex 2",
+    "link": "https://www.amazon.com/dp/B09XVDX497?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71CvQVR+BAL._AC_SL1500_.jpg",
+    "description": "Military-grade smartwatch with AMOLED display, dual-band GPS, 24-day battery life, ultra-low temp operation, heart-rate & blood oxygen tracking, 10 ATM waterproofing, 150+ sports modes.",
+    "asin": "B09XVDX497"
+  },
+  {
+    "title": "Garmin v\u00edvomove Style",
+    "link": "https://www.amazon.com/dp/B07W2Z9MQF?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71h5STfBbOL._AC_SL1500_.jpg",
+    "description": "Hybrid smartwatch with analog hands, hidden AMOLED touchscreen, heart rate, sleep tracking, women\u2019s health, and Garmin Pay.",
+    "asin": "B07W2Z9MQF"
+  },
+  {
+    "title": "Samsung Galaxy Watch 7",
+    "link": "https://www.amazon.com/dp/B0D1YNVD88?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71SZNup1qrL._AC_SL1500_.jpg",
+    "description": "Bluetooth smartwatch with AMOLED display, heart rate tracking, ECG, sleep analysis, Galaxy AI wellness tips, GPS-based activity tracking, and contactless payments.",
+    "asin": "B0D1YNVD88"
+  },
+  {
+    "title": "Polar Pacer",
+    "link": "https://www.amazon.com/dp/B09V7TZN9N?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71DMbI+ewqL._AC_SL1500_.jpg",
+    "description": "Lightweight GPS running watch with 35h training battery, sunlight-friendly MIP display, heart rate tracking, and waterproof design.",
+    "asin": "B09V7TZN9N"
+  },
+  {
+    "title": "COROS PACE 3",
+    "link": "https://www.amazon.com/dp/B0CFQQ9FDL?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61HE8zhwT7L._AC_SL1500_.jpg",
+    "description": "Lightweight GPS sport watch with dual-frequency tracking, sleep monitoring, breadcrumb navigation, touchscreen, and 17-day battery life.",
+    "asin": "B0CFQQ9FDL"
+  },
+  {
+    "title": "Garmin v\u00edvomove Trend",
+    "link": "https://www.amazon.com/dp/B0BMQPH345?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71CkMAGOl0L._AC_SL1500_.jpg",
+    "description": "Hybrid smartwatch with analog hands, hidden touchscreen, heart rate, sleep tracking, and Garmin Pay.",
+    "asin": "B0BMQPH345"
+  },
+  {
+    "title": "Garmin Forerunner 255",
+    "link": "https://www.amazon.com/dp/B09WTP57Z5?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71tjy7Umf0L._AC_SL1500_.jpg",
+    "description": "GPS running smartwatch with daily workouts, HRV status, race training tools, and 14-day battery life.",
+    "asin": "B09WTP57Z5"
+  },
+  {
+    "title": "Fitbit Sense 2",
+    "link": "https://www.amazon.com/dp/B0B4N2T7GL?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/51GeUyZUB9L._AC_SL1000_.jpg",
+    "description": "Advanced health and fitness smartwatch with AMOLED screen, ECG app, heart rate monitoring, sleep tracking, GPS, stress tools, and contactless payments.",
+    "asin": "B0B4N2T7GL"
+  },
+  {
+    "title": "Garmin Instinct E",
+    "link": "https://www.amazon.com/dp/B0DSC72873?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61r6NWBWKXL._AC_SL1500_.jpg",
+    "description": "Rugged outdoor GPS smartwatch with 16-day battery, military-grade durability, heart rate, sleep tracking, and GNSS navigation.",
+    "asin": "B0DSC72873"
+  },
+  {
+    "title": "Garmin Lily 2 Active",
+    "link": "https://www.amazon.com/dp/B0DGVV6T6H?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/513KovBBrXL._AC_SL1024_.jpg",
+    "description": "Small and stylish smartwatch with patterned lens, hidden display, GPS tracking, contactless payments, and women's health features.",
+    "asin": "B0DGVV6T6H"
+  },
+  {
+    "title": "Garmin Approach S44",
+    "link": "https://www.amazon.com/dp/B0DRZ2P69L?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61zdNpZhJoL._AC_SL1500_.jpg",
+    "description": "Golf-focused Garmin smartwatch with AMOLED display, hazard view, smart notifications, and 43,000+ course maps.",
+    "asin": "B0DRZ2P69L"
+  },
+  {
+    "title": "Apple Watch Series 10",
+    "link": "https://www.amazon.com/dp/B0DGHYQ1VJ?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61Z8y0y2b0L._AC_SL1500_.jpg",
+    "description": "Premium Apple smartwatch with advanced fitness tracking, ECG, sleep stages, ovulation insights, and safety features.",
+    "asin": "B0DGHYQ1VJ"
+  },
+  {
+    "title": "Garmin v\u00edvoactive 6",
+    "link": "https://www.amazon.com/dp/B0F38FCHD2?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61XnMN3n4wL._AC_SL1500_.jpg",
+    "description": "AMOLED fitness smartwatch with GPS, heart rate, sleep score, cycle tracking, 80+ sports modes, and 11-day battery life.",
+    "asin": "B0F38FCHD2"
+  },
+  {
+    "title": "Amazfit T-Rex Ultra",
+    "link": "https://www.amazon.com/dp/B0BV2SM914?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71w6yIZ4i4L._AC_SL1500_.jpg",
+    "description": "Rugged tactical smartwatch with AMOLED display, dual-band GPS, 30m freediving support, military-grade durability, 20-day battery life, and ultra-low temperature operation.",
+    "asin": "B0BV2SM914"
+  },
+  {
+    "title": "Polar Ignite 3",
+    "link": "https://www.amazon.com/dp/B0BJVQNKQ5?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61PX3bTEnfL._AC_SL1448_.jpg",
+    "description": "Fitness smartwatch with AMOLED display, built-in GPS, heart rate monitoring, sleep tracking, voice guidance, and 30-hour battery life.",
+    "asin": "B0BJVQNKQ5"
+  },
+  {
+    "title": "COROS PACE Pro",
+    "link": "https://www.amazon.com/dp/B0DK31TB7G?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/612VXoI9XmL._AC_SL1500_.jpg",
+    "description": "GPS sport watch with 1.3\" AMOLED, dual-frequency GPS, offline maps, sleep tracking, advanced navigation, 20-day battery, and training tools.",
+    "asin": "B0DK31TB7G"
+  },
+  {
+    "title": "COROS APEX 2",
+    "link": "https://www.amazon.com/dp/B0BKTTMDRY?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/81o+yUspT7L._AC_SL1500_.jpg",
+    "description": "GPS outdoor watch with sapphire glass, 5-satellite tracking, heart rate monitor, offline maps, 14-day battery, training tools, and music control.",
+    "asin": "B0BKTTMDRY"
+  },
+  {
+    "title": "Polar Pacer Pro",
+    "link": "https://www.amazon.com/dp/B09V7TCNBZ?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71s3bufUopL._AC_SL1500_.jpg",
+    "description": "Lightweight GPS running smartwatch with 35h battery, optical heart rate, sleep tracking, and tools for 150+ sports and recovery.",
+    "asin": "B09V7TCNBZ"
+  },
+  {
+    "title": "Garmin Venu 3",
+    "link": "https://www.amazon.com/dp/B0CDC6H66Y?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61HV8pMBeHL._AC_SL1500_.jpg",
+    "description": "AMOLED smartwatch with heart rate monitoring, built-in speaker/microphone, sleep coaching, and 14-day battery life.",
+    "asin": "B0CDC6H66Y"
+  },
+  {
+    "title": "Garmin Venu 3S",
+    "link": "https://www.amazon.com/dp/B0CDC6C4TQ?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61-afMHE3IL._AC_SL1500_.jpg",
+    "description": "AMOLED smartwatch with health tracking, animated workouts, GPS, voice calling, and 10-day battery life.",
+    "asin": "B0CDC6C4TQ"
+  },
+  {
+    "title": "Garmin Approach S50",
+    "link": "https://www.amazon.com/dp/B0DRZ1QFY5?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61bhoPFY4+L._AC_SL1500_.jpg",
+    "description": "Advanced golf GPS smartwatch with AMOLED display, hazard view, elevation-adjusted distances, and smart scoring tools.",
+    "asin": "B0DRZ1QFY5"
+  },
+  {
+    "title": "Garmin Instinct 3",
+    "link": "https://www.amazon.com/dp/B0DSC8JF59?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61OQIbekPNL._AC_SL1500_.jpg",
+    "description": "Rugged AMOLED GPS smartwatch with metal-reinforced bezel, built-in flashlight, advanced health tracking, and 18-day battery life.",
+    "asin": "B0DSC8JF59"
+  },
+  {
+    "title": "Google Pixel Watch 3",
+    "link": "https://www.amazon.com/dp/B0D91268TH?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61-JMO7a6+L._AC_SL1500_.jpg",
+    "description": "Android smartwatch with AMOLED display, heart rate tracking, ECG, sleep analysis, fall detection, fitness insights from Fitbit, GPS, and contactless payments.",
+    "asin": "B0D91268TH"
+  },
+  {
+    "title": "Polar Vantage M3",
+    "link": "https://www.amazon.com/dp/B0DJGSP1Y2?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71aq9uwuPbL._AC_SL1500_.jpg",
+    "description": "Multi-sport smartwatch with AMOLED display, dual-frequency GPS, turn-by-turn navigation, sleep tracking, heart rate monitor, 7-day battery, and support for 150+ sport profiles.",
+    "asin": "B0DJGSP1Y2"
+  },
+  {
+    "title": "Amazfit Falcon",
+    "link": "https://www.amazon.com/dp/B0BFX4DLQ7?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71GN2pwsOOL._AC_SL1500_.jpg",
+    "description": "Premium rugged smartwatch with titanium build, dual-band GPS, AI fitness coach, offline maps, and 200m water resistance.",
+    "asin": "B0BFX4DLQ7"
+  },
+  {
+    "title": "Samsung Galaxy Watch Ultra",
+    "link": "https://www.amazon.com/dp/B0D1YLBBMB?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/817QHxxq34L._AC_SL1500_.jpg",
+    "description": "LTE smartwatch with titanium case, AMOLED display, advanced heart rate tracking, ECG, sleep analysis, GPS, Galaxy AI wellness tips, and waterproof design.",
+    "asin": "B0D1YLBBMB"
+  },
+  {
+    "title": "Suunto Race",
+    "link": "https://www.amazon.com/dp/B0CFT1CC3J?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/51tP0V5VSlL._AC_SL1080_.jpg",
+    "description": "GPS sports watch with AMOLED touchscreen, dual-band GNSS, heart rate tracking, sleep insights, offline global maps, and up to 26-day battery life.",
+    "asin": "B0CFT1CC3J"
+  },
+  {
+    "title": "COROS APEX 2 Pro",
+    "link": "https://www.amazon.com/dp/B0BKTS4SGG?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61k3xyQMb5L._AC_SL1500_.jpg",
+    "description": "Outdoor GPS watch with sapphire glass, dual-frequency GPS, offline maps, navigation tools, heart rate and sleep tracking, and 24-day battery life.",
+    "asin": "B0BKTS4SGG"
+  },
+  {
+    "title": "Garmin quatix 7 Standard",
+    "link": "https://www.amazon.com/dp/B09SJSNP4M?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/51WoGxT0q6L._AC_SL1000_.jpg",
+    "description": "Marine-focused smartwatch with GPS, tide and anchor alerts, chartplotter control, heart rate, sleep tracking, and Garmin Pay support.",
+    "asin": "B09SJSNP4M"
+  },
+  {
+    "title": "Garmin Forerunner 965",
+    "link": "https://www.amazon.com/dp/B0BS1XZY7T?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/716+0qoy3HL._AC_SL1500_.jpg",
+    "description": "Premium GPS smartwatch with AMOLED display, triathlon support, daily workouts, full-color maps, and 23-day battery life.",
+    "asin": "B0BS1XZY7T"
+  },
+  {
+    "title": "Suunto Vertical",
+    "link": "https://www.amazon.com/dp/B0BZZW76YY?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71jABK9BZFL._AC_SL1500_.jpg",
+    "description": "Premium multisport GPS watch with 1.4\" touchscreen, dual-band GNSS, offline topo maps, 95+ sport modes, heart rate and sleep tracking, and 60-day battery life.",
+    "asin": "B0BZZW76YY"
+  },
+  {
+    "title": "Garmin D2 Air X10",
+    "link": "https://www.amazon.com/dp/B09VH2D5G6?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71I4OXSKXRL._AC_SL1500_.jpg",
+    "description": "Aviation smartwatch with AMOLED display, weather alerts, GPS navigation, HSI guidance, and health tracking.",
+    "asin": "B09VH2D5G6"
+  },
+  {
+    "title": "Garmin Forerunner 570",
+    "link": "https://www.amazon.com/dp/B0F8QYGR9D?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61lVr+OEzeL._AC_SL1500_.jpg",
+    "description": "Advanced GPS running and triathlon smartwatch with AMOLED display, daily workouts, recovery tracking, and personalized coaching.",
+    "asin": "B0F8QYGR9D"
+  },
+  {
+    "title": "Polar Vantage V3",
+    "link": "https://www.amazon.com/dp/B0CZPRDRQG?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71OYQ9fWEyL._AC_SL1500_.jpg",
+    "description": "Premium multisport GPS smartwatch with AMOLED display, offline contour maps, dual-frequency GPS, heart rate monitor, 150+ sport modes, and up to 8-day battery life.",
+    "asin": "B0CZPRDRQG"
+  },
+  {
+    "title": "Garmin Approach S70",
+    "link": "https://www.amazon.com/dp/B0BYFBRMWP?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71dQF0WhHEL._AC_SL1500_.jpg",
+    "description": "Premium Garmin golf smartwatch with AMOLED display, virtual caddie, course maps, and wind-adjusted shot tracking.",
+    "asin": "B0BYFBRMWP"
+  },
+  {
+    "title": "Garmin Enduro 2",
+    "link": "https://www.amazon.com/dp/B09ZZ7Y8WZ?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71-SIbmswYL._AC_SL1500_.jpg",
+    "description": "Ultradurable GPS smartwatch with solar charging, preloaded maps, flashlight, advanced endurance training features, and extreme battery life.",
+    "asin": "B09ZZ7Y8WZ"
+  },
+  {
+    "title": "Garmin Descent G2",
+    "link": "https://www.amazon.com/dp/B0DX21FHWP?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61zoMt8ec9L._AC_SL1500_.jpg",
+    "description": "Rugged, watch-style dive computer with AMOLED display, multiple dive modes, advanced training features, and recycled materials.",
+    "asin": "B0DX21FHWP"
+  },
+  {
+    "title": "Garmin MARQ Captain",
+    "link": "https://www.amazon.com/dp/B07PW4NFQ1?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/81M7baAjK5L._AC_SL1500_.jpg",
+    "description": "Luxury nautical smartwatch with regatta timer bezel, GPS sailing tools, marine maps, and 12-day battery life.",
+    "asin": "B07PW4NFQ1"
+  },
+  {
+    "title": "COROS VERTIX 2S",
+    "link": "https://www.amazon.com/dp/B0D128CFVY?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61GVaTEBxsL._AC_SL1500_.jpg",
+    "description": "Adventure GPS watch with sapphire screen, dual-frequency GPS, global offline maps, sleep and recovery tracking, 40-day battery life, and pro-level navigation.",
+    "asin": "B0D128CFVY"
+  },
+  {
+    "title": "Apple Watch Ultra 2",
+    "link": "https://www.amazon.com/dp/B0DGJ3PBKT?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/81vLYHVwqjL._AC_SL1500_.jpg",
+    "description": "Ultra-rugged Apple smartwatch with dual-frequency GPS, advanced training metrics, cellular connectivity, and outdoor durability.",
+    "asin": "B0DGJ3PBKT"
+  },
+  {
+    "title": "Garmin Forerunner 970",
+    "link": "https://www.amazon.com/dp/B0F8QZ7233?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61utDjAksTL._AC_SL1500_.jpg",
+    "description": "Premium GPS running and triathlon smartwatch with AMOLED display, flashlight, maps, voice control, and training readiness metrics.",
+    "asin": "B0F8QZ7233"
+  },
+  {
+    "title": "Garmin MARQ Aviator",
+    "link": "https://www.amazon.com/dp/B07Q1P3XWN?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/817f6wtxxuL._AC_SL1500_.jpg",
+    "description": "Luxury aviation smartwatch with worldwide aviation database, GPS navigation, flight logging, weather radar, and Garmin Pay.",
+    "asin": "B07Q1P3XWN"
+  },
+  {
+    "title": "Garmin quatix 7 Pro",
+    "link": "https://www.amazon.com/dp/B0CLVQ3P1M?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71yANqtnZqL._AC_SL1500_.jpg",
+    "description": "High-performance marinized smartwatch with AMOLED display, LED flashlight, marine apps, smart features, and up to 16 days battery life in smartwatch mode.",
+    "asin": "B0CLVQ3P1M"
+  },
+  {
+    "title": "Polar Grit X2 Pro",
+    "link": "https://www.amazon.com/dp/B0CXJ4QWR5?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71goOzCYmNL._AC_SL1500_.jpg",
+    "description": "Premium outdoor smartwatch with AMOLED display, dual-frequency GPS, offline topographic maps, MIL-STD-810H durability, heart rate monitoring, and extended battery for multi-day use.",
+    "asin": "B0CXJ4QWR5"
+  },
+  {
+    "title": "Polar Grit X2 Pro Titan",
+    "link": "https://www.amazon.com/dp/B0CXHYN48P?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/81gwe1pl1qL._AC_SL1500_.jpg",
+    "description": "Ultra-premium outdoor smartwatch with AMOLED display, dual-frequency GPS, offline topo maps, aerospace titanium case, heart rate tracking, and extended battery for rugged adventures.",
+    "asin": "B0CXHYN48P"
+  },
+  {
+    "title": "Suunto Ocean",
+    "link": "https://www.amazon.com/dp/B0CZ6G2XC1?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71OilQ-jfFL._AC_SL1500_.jpg",
+    "description": "Dive computer and sport smartwatch with AMOLED display, heart rate and sleep tracking, dual-frequency GPS, offline maps, dive modes, and 95+ sports profiles.",
+    "asin": "B0CZ6G2XC1"
+  },
+  {
+    "title": "Garmin quatix 7X Solar",
+    "link": "https://www.amazon.com/dp/B09SJY8XSN?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71r8nqqlr+L._AC_SL1500_.jpg",
+    "description": "Solar powered marine smartwatch with 1.4\u201d display, flashlight, payments, GPS, and full sports features. Designed for boaters and explorers.",
+    "asin": "B09SJY8XSN"
+  },
+  {
+    "title": "Garmin Descent Mk3",
+    "link": "https://www.amazon.com/dp/B0CNSJH26Y?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/712-d8jD0KL._AC_SL1500_.jpg",
+    "description": "Compact dive smartwatch with AMOLED display, 200m water resistance, dive modes, and underwater GPS-assisted navigation.",
+    "asin": "B0CNSJH26Y"
+  },
+  {
+    "title": "Garmin D2 Mach 1",
+    "link": "https://www.amazon.com/dp/B0B4LW622H?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71QioLyFRML._AC_SL1500_.jpg",
+    "description": "Aviator smartwatch with AMOLED display, aviation weather, airport data, moving map navigation, and wellness tracking.",
+    "asin": "B0B4LW622H"
+  },
+  {
+    "title": "Garmin D2 Mach 1 Pro",
+    "link": "https://www.amazon.com/dp/B0CRH3LKJZ?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/71pIjzX4+zL._AC_SL1500_.jpg",
+    "description": "Premium aviator smartwatch with AMOLED display, moving maps, aviation weather, flashlight, and advanced health tracking.",
+    "asin": "B0CRH3LKJZ"
+  },
+  {
+    "title": "Garmin MARQ Athlete",
+    "link": "https://www.amazon.com/dp/B07PYG1J8L?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/81qb95S9n0L._AC_SL1500_.jpg",
+    "description": "Premium-crafted tool watch with VO2 max, recovery time, advanced training metrics, topo maps, and contactless payments.",
+    "asin": "B07PYG1J8L"
+  },
+  {
+    "title": "Garmin tactix 8",
+    "link": "https://www.amazon.com/dp/B0DX2B821T?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61U2PzzX2dL._AC_SL1500_.jpg",
+    "description": "Advanced tactical GPS smartwatch with AMOLED display, ballistics solver, stealth mode, LED flashlight, diving support, stamina tracking, and multi-band GPS.",
+    "asin": "B0DX2B821T"
+  },
+  {
+    "title": "Garmin Descent Mk3i",
+    "link": "https://www.amazon.com/dp/B0CNSF5DK2?tag=sortroute-20",
+    "image": "https://m.media-amazon.com/images/I/61es0NIKYlL._AC_SL1500_.jpg",
+    "description": "Premium dive-focused smartwatch with AMOLED display, dive modes, sonar messaging, and 200m water resistance.",
+    "asin": "B0CNSF5DK2"
   }
 ]
